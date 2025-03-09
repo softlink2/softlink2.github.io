@@ -5,22 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOFTLINK</title>
     <link rel="stylesheet" href="styles-pricipal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 <body>
     <header>
         <div class="logo"></div>
         <nav class="opciones">
-            <span>INICIO</span>
-            <span>APLICACIONES</span>
-            <span>JUEGOS</span>
+            <span onclick="inicio()">INICIO</span>
+            <span class="apl">APLICACIONES </span>
+            <div class="sec">
+                <P onclick="app_windows()">WINDOWS</P>
+                <p onclick="app_androit()">ANDROIT</p>
+            </div>
+            <span onclick="juegos()">JUEGOS</span>
         </nav>
     </header>
     <div class="fondo">
         <h3 class="titulo">¡Bienvenido a SoftLink!</h3>
-        <p class="descripcion">Somos tu fuente confiable para descargar las <br>mejores aplicaciones para PC y dispositivos móviles<br> encuentra software desde herramientas de diseño, antivirus<br> juegos y mucho más.</p>
+        <p class="descripcion">tu fuente confiable para descargar las <br>mejores aplicaciones para PC y dispositivos móviles<br> encuentra software desde herramientas de diseño, antivirus<br> juegos y mucho más.</p>
         <img src="IMAGENES/cajas.png" alt="" class="cajas">
         <button class="btn-1">¡VER MAS!</button>
         
     </div>
+    <p class="titulo2">¡visita nuestras categorias!</p>
+    <div class="seccion2">
+        <div class="parte1">
+            <span class="categoria" onclick="app_windows()"> 
+                <div class="ico1"></div>
+                <p id="nombre1">APLICACIONES <br>PARA PC</p>
+            </span>
+             <span class="categoria" onclick="app_androit()"> 
+                <div class="ico2"></div>
+                <p id="nombre">APPS MOVILES</p>
+            </span>
+            <span class="categoria" onclick="juegos()">
+                <div class="ico3"></div>
+                <p id="nombre">JUEGOS</p></span>
+        </div>
+        <div class="parte2">
+
+        </div>
+    </div>
+<footer>
+
+</footer>
 </body>
 </html>

@@ -261,8 +261,8 @@ header>nav>span:nth-child(2){
 .lista>li::before{
     content: "";
     display: inline-block;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     background-image: url(IMAGENES/comprobado.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -283,8 +283,6 @@ footer{
     background-color: #217FFB;
     justify-content: space-evenly;
     color: #fff;
-    position:absolute;
-    top: 140%;
     font-family: "K2D", sans-serif;
     font-weight: 400;
     font-style: normal;

@@ -201,7 +201,7 @@ header>nav>span:nth-child(2){
 .categorias>span{
     width: 140px;
     height: 145px;
-    background-color: #ecebebe7;
+    background: linear-gradient(to top, #217FFB, #D1F7FF);
     border-radius: 15px;
     cursor: pointer;
 }
